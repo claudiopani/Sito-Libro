@@ -8,9 +8,8 @@
 }
 
 .u-section-1 .u-text-1 {
-  text-transform: uppercase;
-  font-size: 6rem;
-  font-weight: 700;
+  font-weight: 100;
+  text-transform: none;
   margin: 258px auto 0 20px;
 }
 
@@ -45,23 +44,20 @@
   .u-section-1 .u-sheet-1 {
     min-height: 470px;
   }
-
-  .u-section-1 .u-text-1 {
-    font-size: 3.75rem;
-  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
     min-height: 296px;
   }
-
-  .u-section-1 .u-text-1 {
-    font-size: 3rem;
-  }
 }@font-face {
   font-family: 'NewRocker-Regular';
   font-style: normal;
   font-weight: 400;
   src: url(fonts/NewRocker-Regular.ttf);
+}@font-face {
+  font-family: 'SupermercadoOne-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SupermercadoOne-Regular.ttf);
 }
