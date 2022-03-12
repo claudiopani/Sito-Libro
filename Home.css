@@ -33,29 +33,30 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 819px;
+    min-height: 867px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: 0;
+    width: auto;
+    margin-right: 20px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 627px;
+    min-height: 963px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 470px;
+    min-height: 1116px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 296px;
+    min-height: 1518px;
   }
 }@font-face {
   font-family: 'SupermercadoOne-Regular';
