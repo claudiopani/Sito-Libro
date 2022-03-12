@@ -18,9 +18,10 @@
 }
 
 .u-section-1 .u-btn-1 {
-  text-transform: uppercase;
-  font-weight: 700;
+  letter-spacing: 1px;
   border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
   background-image: none;
   margin: 49px auto 60px 20px;
 }
