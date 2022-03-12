@@ -36,9 +36,19 @@
     min-height: 867px;
   }
 
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 130px;
+  }
+
   .u-section-1 .u-text-2 {
     width: auto;
+    margin-top: 77px;
     margin-right: 20px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 95px;
   }
 }
 
@@ -46,17 +56,50 @@
   .u-section-1 .u-sheet-1 {
     min-height: 963px;
   }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 143px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 97px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 97px;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
     min-height: 1116px;
   }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 25px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 60px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 80px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
     min-height: 1518px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 60px;
+    margin-left: 0;
   }
 }@font-face {
   font-family: 'SupermercadoOne-Regular';
