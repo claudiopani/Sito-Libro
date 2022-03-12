@@ -36347,14 +36347,8 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 56px;
 }
 
-.u-header .u-image-1 {
-  width: 66px;
-  height: 47px;
-  margin: 4px auto 0 0;
-}
-
 .u-header .u-menu-1 {
-  margin: -42px 0 0 auto;
+  margin: 10px 0 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -36366,22 +36360,26 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1.25rem;
 }
 
+.u-header .u-image-1 {
+  width: 44px;
+  height: 32px;
+  margin: -34px auto 0 0;
+}
+
 .u-header .u-text-1 {
   font-family: "Lakki Reddy";
   width: 123px;
-  margin: -26px auto 0;
+  margin: -24px auto 0;
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    width: 66px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: -42px;
+    width: 44px;
+    height: 32px;
   }
 
   .u-header .u-text-1 {
     width: 123px;
+    margin-top: -24px;
   }
 }
 
