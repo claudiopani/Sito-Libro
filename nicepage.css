@@ -36912,6 +36912,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1rem;
   letter-spacing: 0px;
   font-weight: 700;
+  text-transform: none;
 }
 
 .u-header .u-nav-2 {
@@ -36930,10 +36931,6 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -32px auto 8px;
 }
 @media (max-width: 1199px) {
-  .u-header .u-nav-1 {
-    text-transform: none;
-  }
-
   .u-header .u-image-1 {
     width: 44px;
     height: 32px;
