@@ -16,24 +16,66 @@
 .u-section-1 .u-image-1 {
   width: 510px;
   height: 323px;
-  margin: 40px auto 0 20px;
+  margin: 40px auto 0 36px;
 }
 
-.u-section-1 .u-image-2 {
-  width: 510px;
-  height: 323px;
-  margin: -323px auto 60px 20px;
+.u-section-1 .u-text-2 {
+  font-family: supermercadoone-regular-webfont;
+  margin: -241px 246px 0 auto;
+}
+
+.u-section-1 .u-text-3 {
+  font-family: supermercadoone-regular-webfont;
+  margin: 20px 251px 0 auto;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-style: none;
+  margin: 20px 206px 60px auto;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
     margin-left: 0;
   }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 6px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-2 {
+    margin-right: 188px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 192px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-text-1 {
     font-size: 3.75rem;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-left: 30px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 141px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 144px;
   }
 }
 
@@ -52,21 +94,25 @@
   .u-section-1 .u-image-1 {
     width: 340px;
     height: 215px;
+    margin-left: 0;
   }
 
-  .u-section-1 .u-image-2 {
-    width: 340px;
-    height: 215px;
-    margin-top: -215px;
+  .u-section-1 .u-text-2 {
+    margin-top: -133px;
+    margin-right: 89px;
   }
-}@font-face {
-  font-family: 'newrocker-regular-webfont';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/newrocker-regular-webfont.woff2);
+
+  .u-section-1 .u-text-3 {
+    margin-right: 91px;
+  }
 }@font-face {
   font-family: 'supermercadoone-regular-webfont';
   font-style: normal;
   font-weight: 400;
   src: url(fonts/supermercadoone-regular-webfont.woff2);
+}@font-face {
+  font-family: 'newrocker-regular-webfont';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/newrocker-regular-webfont.woff2);
 }
