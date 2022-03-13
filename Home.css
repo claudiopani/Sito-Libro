@@ -3,18 +3,19 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1034px;
+  min-height: 800px;
 }
 
 .u-section-1 .u-text-1 {
-  font-weight: 100;
+  font-size: 6rem;
+  font-weight: bold;
   text-transform: none;
-  margin: 60px auto 0 20px;
+  margin: 145px auto 0 20px;
 }
 
 .u-section-1 .u-text-2 {
-  font-family: SupermercadoOne-Regular;
-  margin: 27px 97px 0 20px;
+  font-family: supermercadoone-regular-webfont;
+  margin: 31px 97px 0 20px;
 }
 
 .u-section-1 .u-btn-1 {
@@ -23,70 +24,72 @@
 }
 
 .u-section-1 .u-btn-2 {
-  letter-spacing: 1px;
-  border-style: none;
-  font-weight: 700;
-  text-transform: uppercase;
   background-image: none;
-  margin: 50px auto 60px 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-style: none;
+  margin: 40px 20px 60px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 867px;
+    min-height: 660px;
   }
 
   .u-section-1 .u-text-1 {
-    width: auto;
+    margin-left: 0;
   }
 
   .u-section-1 .u-text-2 {
-    width: auto;
-    margin-right: 20px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 963px;
+    min-height: 506px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1116px;
+    min-height: 380px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-left: 25px;
+    font-size: 3.75rem;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1284px;
+    min-height: 1192px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-left: auto;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-left: 0;
-    margin-right: 0;
+    font-size: 3rem;
+    margin-top: 100px;
   }
 
   .u-section-1 .u-btn-2 {
+    margin-top: 31px;
     margin-left: auto;
+    margin-right: auto;
   }
 }@font-face {
-  font-family: 'SupermercadoOne-Regular';
+  font-family: 'supermercadoone-regular-webfont';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/SupermercadoOne-Regular.ttf);
+  src: url(fonts/supermercadoone-regular-webfont.woff2);
 }@font-face {
-  font-family: 'NewRocker-Regular';
+  font-family: 'newrocker-regular-webfont';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/NewRocker-Regular.ttf);
+  src: url(fonts/newrocker-regular-webfont.woff2);
 }
