@@ -3,7 +3,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1156px;
+  min-height: 1151px;
 }
 
 .u-section-1 .u-text-1 {
@@ -30,7 +30,6 @@
 }
 
 .u-section-1 .u-btn-1 {
-  background-image: none;
   text-transform: uppercase;
   font-weight: 700;
   border-style: none;
@@ -45,11 +44,6 @@
 
 .u-section-1 .u-text-4 {
   font-family: supermercadoone-regular-webfont;
-  margin: -241px 257px 0 auto;
-}
-
-.u-section-1 .u-text-5 {
-  font-family: supermercadoone-regular-webfont;
   margin: 20px 206px 0 auto;
 }
 
@@ -59,6 +53,13 @@
   font-weight: 700;
   border-style: none;
   margin: 20px 204px 60px auto;
+}
+
+.u-section-1 .u-text-5 {
+  font-family: supermercadoone-regular-webfont;
+  width: auto;
+  font-size: 1.125rem;
+  margin: -361px auto 60px 0;
 }
 
 @media (max-width: 1199px) {
@@ -77,19 +78,30 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-text-2 {
-    margin-right: 198px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: 47px;
+    margin-bottom: initial;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: auto;
+    margin-left: 47px;
   }
 
   .u-section-1 .u-btn-1 {
-    margin-right: 0;
+    margin-right: auto;
+    margin-left: 47px;
   }
 
   .u-section-1 .u-text-4 {
-    margin-right: 197px;
+    margin-right: auto;
+    margin-left: 47px;
   }
 
   .u-section-1 .u-btn-2 {
-    margin-right: 0;
+    margin-right: auto;
+    margin-left: 47px;
   }
 }
 
@@ -103,11 +115,16 @@
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: 149px;
+    margin-bottom: 0;
+    margin-left: 30px;
   }
 
   .u-section-1 .u-text-3 {
-    margin-right: 155px;
+    margin-left: 30px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 30px;
   }
 
   .u-section-1 .u-image-2 {
@@ -115,19 +132,15 @@
   }
 
   .u-section-1 .u-text-4 {
-    margin-right: 148px;
+    margin-left: 30px;
   }
 
-  .u-section-1 .u-text-5 {
-    margin-right: 155px;
+  .u-section-1 .u-btn-2 {
+    margin-left: 30px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 940px;
-  }
-
   .u-section-1 .u-text-1 {
     font-size: 3rem;
     width: auto;
@@ -142,27 +155,35 @@
   }
 
   .u-section-1 .u-text-2 {
-    margin-top: -133px;
-    margin-right: 94px;
+    width: auto;
+    margin-left: 0;
   }
 
   .u-section-1 .u-text-3 {
-    margin-right: 98px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: -139px;
+    margin-right: -1px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-image-2 {
     width: 340px;
     height: 215px;
+    margin-top: 261px;
     margin-left: 0;
   }
 
   .u-section-1 .u-text-4 {
-    margin-top: -133px;
-    margin-right: 93px;
+    width: auto;
+    margin-top: 22px;
+    margin-left: 0;
   }
 
-  .u-section-1 .u-text-5 {
-    margin-right: 98px;
+  .u-section-1 .u-btn-2 {
+    margin: -95px 0 0 auto;
   }
 }@font-face {
   font-family: 'supermercadoone-regular-webfont';
