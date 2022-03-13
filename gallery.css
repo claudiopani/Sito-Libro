@@ -84,4 +84,14 @@
     margin-left: auto;
     margin-right: auto;
   }
+}@font-face {
+  font-family: 'supermercadoone-regular-webfont';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/supermercadoone-regular-webfont.woff2);
+}@font-face {
+  font-family: 'newrocker-regular-webfont';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/newrocker-regular-webfont.woff2);
 }

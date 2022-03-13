@@ -37103,7 +37103,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -28px 0 22px auto;
+  margin: -28px 0 5px auto;
 }
 
 .u-header .u-nav-1 {
@@ -37209,6 +37209,14 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 20px;
 }
 
+.u-footer .u-text-1 {
+  font-family: supermercadoone-regular-webfont;
+}
+
+.u-footer .u-text-2 {
+  font-family: supermercadoone-regular-webfont;
+}
+
 .u-footer .u-layout-cell-2 {
   min-height: 194px;
   --animation-custom_in-translate_x: -200px;
@@ -37220,6 +37228,14 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-container-layout-2 {
   padding: 20px;
+}
+
+.u-footer .u-text-3 {
+  font-family: supermercadoone-regular-webfont;
+}
+
+.u-footer .u-text-4 {
+  font-family: supermercadoone-regular-webfont;
 }
 
 .u-footer .u-layout-cell-3 {
@@ -37235,6 +37251,14 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 20px;
 }
 
+.u-footer .u-text-5 {
+  font-family: supermercadoone-regular-webfont;
+}
+
+.u-footer .u-text-6 {
+  font-family: supermercadoone-regular-webfont;
+}
+
 .u-footer .u-layout-cell-4 {
   min-height: 143px;
   --animation-custom_in-translate_x: -200px;
@@ -37246,6 +37270,14 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-container-layout-4 {
   padding: 20px;
+}
+
+.u-footer .u-text-7 {
+  font-family: supermercadoone-regular-webfont;
+}
+
+.u-footer .u-text-8 {
+  font-family: supermercadoone-regular-webfont;
 }
 
 .u-footer .u-social-icons-1 {
